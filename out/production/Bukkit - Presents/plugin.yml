@@ -1,0 +1,8 @@
+name: Presents_by_AronikTV
+author: AronikTV
+version: 1.0
+main: de.aroniktv.presents.main.main
+commands:
+  Present:
+    description: Present
+    aliases: [p]

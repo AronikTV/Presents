@@ -1,0 +1,41 @@
+//#=============================#
+//#     Plugin   by  AronikTV   //#
+///#=============================#
+
+Prefix: '&7[&6Presents&7]'
+
+Skull:
+  Owner: 'MHF_Present2'
+  DisplayName: '&c&lG&r&lE&c&lS&r&lC&c&lH&r&lE&c&lN&r&lK'
+  Lore:
+   - '&7Um das Geschenk zu setzen,'
+   - '&7musst du es platzieren.'
+   - ' '
+   - '&7Um einen Befehl hinzuzufügen,'
+   - '&7führe aus:'
+   - '&c/present addcommand <ID> <Befehl>'
+  
+Messages: 
+  GetSkull: '&7Du hast ein &c&lG&r&lE&c&lS&r&lC&c&lH&r&lE&c&lN&r&lK &7erhalten.'
+  AddCommand: '&7Du hast dem Geschenk &e%id% &7den Befehl &e%command% &7hinzugefügt.'
+  PlaceSkull: '&7Du hast das Geschenk &e%id% &7erstellt.'
+  BreakSkull: '&cDas Geschenk kann nicht abgebaut werden.'
+  
+Errors:
+  NoPlayer: '&cDu musst ein Spieler sein!'
+  NoPermissions: '&cDu hast dazu keine Berechtigung!'
+  NoValidID: '&cDu hast keine gültige Geschenk-ID angegeben!'
+  NoValidCMD: '&cDu hast keinen gültigen Befehl angegeben!'
+  CantSaveFile: '&cEine Datei konnte nicht gespeichert werden!'
+  
+  Syntax:
+    DidYouMean: '&cMeintest du... &e%command%'
+    UseCommand: '&cVerwende: &e%command%'
+    
+Title:
+  FoundNew:
+    Title: '&aGlückwunsch!'
+    Subtitle: '&7Du hast ein Geschenk gefunden! (&a%found% &7/ &c%tofind%&7)'
+  AlreadyFound:
+    Title: '&cSchade!'
+    Subtitle: '&7Du hast dieses Geschenk schon gefunden.'

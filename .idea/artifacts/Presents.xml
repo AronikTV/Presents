@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Presents">
+    <output-path>$PROJECT_DIR$/out/artifacts/Presents</output-path>
+    <root id="archive" name="Presents.jar">
+      <element id="module-output" name="Bukkit - Presents" />
+      <element id="library" level="project" name="SF-CoinAPI-1.0" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>
